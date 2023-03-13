@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import produce from "immer";
 import { RootState } from '../../app/store';
-// import { fetchPosts, createPost, destroyPost, updatePost } from './postAPI'
+import { fetchPosts, createPost, destroyPost, updatePost } from './postApi'
 
 
 export enum Statuses{
